@@ -13,6 +13,7 @@ numList = [1, 2, 3];
 let result = numList.filter((num) => num > 2);
 console.log(result);
 let c = 2 /* Color.Blue */;
+// TUPLE
 let swapNumbs;
 function swapNumbers(num1, num2) {
     return [num2, num1];
