@@ -19,3 +19,12 @@ numList = [1, 2, 3];
 let result = numList.filter((num) => num > 2);
 
 console.log(result);
+
+
+enum Color {
+  Red,
+  Green,
+  Blue
+}
+
+let c: Color = Color.Blue;
