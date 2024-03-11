@@ -8,5 +8,14 @@ let age: number;
 age = 24;
 
 let isValid : boolean = true;
-console.log(isValid);
-console.log(newname);
+
+
+// both ways will declare an array of strings
+let emptyList : string[];
+let depList : Array<string>;
+
+let numList : Array<number>;
+numList = [1, 2, 3];
+let result = numList.filter((num) => num > 2);
+
+console.log(result);
