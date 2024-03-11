@@ -30,3 +30,6 @@ function getItems<Type>(items: Type[]): Type[] {
 
 let concatNumResult = getItems<number>([1,2,3,4]);
 let concatStringResult = getItems<string>(["1","2","testing!","oh yeah"]);
+
+
+
