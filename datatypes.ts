@@ -20,11 +20,24 @@ let result = numList.filter((num) => num > 2);
 
 console.log(result);
 
+// ENUM
 
-enum Color {
+const enum Color {
   Red,
   Green,
   Blue
 }
 
 let c: Color = Color.Blue;
+
+
+// TUPLE
+
+let swapNumbs: [number,number];
+function swapNumbers(num1 : number, num2 : number) : [number,number] {
+  return [num2, num1]
+}
+swapNumbs = swapNumbers(10, 20);
+swapNumbs[0];
+
+

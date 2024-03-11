@@ -12,10 +12,10 @@ let numList;
 numList = [1, 2, 3];
 let result = numList.filter((num) => num > 2);
 console.log(result);
-var Color;
-(function (Color) {
-    Color[Color["Red"] = 0] = "Red";
-    Color[Color["Green"] = 1] = "Green";
-    Color[Color["Blue"] = 2] = "Blue";
-})(Color || (Color = {}));
-let c = Color.Blue;
+let c = 2 /* Color.Blue */;
+let swapNumbs;
+function swapNumbers(num1, num2) {
+    return [num2, num1];
+}
+swapNumbs = swapNumbers(10, 20);
+swapNumbs[0];
